@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C093C33972950088D7205E /* Pods_Hello_JenkinsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D5C2EC825961582D7F5E41 /* Pods_Hello_JenkinsTests.framework */; };
 		3BDBB155209AA28900648EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBB154209AA28900648EA1 /* AppDelegate.swift */; };
 		3BDBB157209AA28900648EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBB156209AA28900648EA1 /* ViewController.swift */; };
 		3BDBB15A209AA28900648EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDBB158209AA28900648EA1 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		3BDBB15F209AA28B00648EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDBB15D209AA28B00648EA1 /* LaunchScreen.storyboard */; };
 		3BDBB16A209AA28B00648EA1 /* Hello_JenkinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBB169209AA28B00648EA1 /* Hello_JenkinsTests.swift */; };
 		3BDBB175209AA28B00648EA1 /* Hello_JenkinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBB174209AA28B00648EA1 /* Hello_JenkinsUITests.swift */; };
+		BB11910737BCD68E4222F87C /* Pods_Hello_Jenkins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D50F2302914AFF01D5460 /* Pods_Hello_Jenkins.framework */; };
+		F0E1B743BC6A4FEDB5EA7B40 /* Pods_Hello_JenkinsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CABFDC091AF46790EF5EDA /* Pods_Hello_JenkinsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07CABFDC091AF46790EF5EDA /* Pods_Hello_JenkinsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_JenkinsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD376E65EBB31E32750BA2A /* Pods-Hello-Jenkins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello-Jenkins.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello-Jenkins/Pods-Hello-Jenkins.debug.xcconfig"; sourceTree = "<group>"; };
 		3BDBB151209AA28900648EA1 /* Hello-Jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-Jenkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDBB154209AA28900648EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDBB156209AA28900648EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		3BDBB170209AA28B00648EA1 /* Hello-JenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-JenkinsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDBB174209AA28B00648EA1 /* Hello_JenkinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_JenkinsUITests.swift; sourceTree = "<group>"; };
 		3BDBB176209AA28B00648EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8D738458CEB3B408491EAC /* Pods-Hello-JenkinsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello-JenkinsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello-JenkinsTests/Pods-Hello-JenkinsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A57D50F2302914AFF01D5460 /* Pods_Hello_Jenkins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_Jenkins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA952EB4A66BA89657BA10FC /* Pods-Hello-JenkinsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello-JenkinsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello-JenkinsTests/Pods-Hello-JenkinsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D5C2EC825961582D7F5E41 /* Pods_Hello_JenkinsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_JenkinsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D552E2D7C502AF913AFD280E /* Pods-Hello-JenkinsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello-JenkinsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello-JenkinsUITests/Pods-Hello-JenkinsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA291EF6BC1EE8C818F14AB2 /* Pods-Hello-Jenkins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello-Jenkins.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello-Jenkins/Pods-Hello-Jenkins.release.xcconfig"; sourceTree = "<group>"; };
+		F00BB1B581F797DF9389F6F9 /* Pods-Hello-JenkinsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello-JenkinsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello-JenkinsUITests/Pods-Hello-JenkinsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB11910737BCD68E4222F87C /* Pods_Hello_Jenkins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C093C33972950088D7205E /* Pods_Hello_JenkinsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E1B743BC6A4FEDB5EA7B40 /* Pods_Hello_JenkinsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				3BDBB168209AA28B00648EA1 /* Hello-JenkinsTests */,
 				3BDBB173209AA28B00648EA1 /* Hello-JenkinsUITests */,
 				3BDBB152209AA28900648EA1 /* Products */,
+				40EE0F0691E33CECDBF7396E /* Pods */,
+				CBB2CE7949CAFA5D7AFB7EF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "Hello-JenkinsUITests";
 			sourceTree = "<group>";
 		};
+		40EE0F0691E33CECDBF7396E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AD376E65EBB31E32750BA2A /* Pods-Hello-Jenkins.debug.xcconfig */,
+				EA291EF6BC1EE8C818F14AB2 /* Pods-Hello-Jenkins.release.xcconfig */,
+				AA952EB4A66BA89657BA10FC /* Pods-Hello-JenkinsTests.debug.xcconfig */,
+				3E8D738458CEB3B408491EAC /* Pods-Hello-JenkinsTests.release.xcconfig */,
+				D552E2D7C502AF913AFD280E /* Pods-Hello-JenkinsUITests.debug.xcconfig */,
+				F00BB1B581F797DF9389F6F9 /* Pods-Hello-JenkinsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBB2CE7949CAFA5D7AFB7EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57D50F2302914AFF01D5460 /* Pods_Hello_Jenkins.framework */,
+				B4D5C2EC825961582D7F5E41 /* Pods_Hello_JenkinsTests.framework */,
+				07CABFDC091AF46790EF5EDA /* Pods_Hello_JenkinsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDBB179209AA28B00648EA1 /* Build configuration list for PBXNativeTarget "Hello-Jenkins" */;
 			buildPhases = (
+				025EE24417974EB5ED87419A /* [CP] Check Pods Manifest.lock */,
 				3BDBB14D209AA28900648EA1 /* Sources */,
 				3BDBB14E209AA28900648EA1 /* Frameworks */,
 				3BDBB14F209AA28900648EA1 /* Resources */,
@@ -149,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDBB17C209AA28B00648EA1 /* Build configuration list for PBXNativeTarget "Hello-JenkinsTests" */;
 			buildPhases = (
+				7231067F6A4DD1DC740C574F /* [CP] Check Pods Manifest.lock */,
 				3BDBB161209AA28B00648EA1 /* Sources */,
 				3BDBB162209AA28B00648EA1 /* Frameworks */,
 				3BDBB163209AA28B00648EA1 /* Resources */,
+				F7682F59703DE556BA591B17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDBB17F209AA28B00648EA1 /* Build configuration list for PBXNativeTarget "Hello-JenkinsUITests" */;
 			buildPhases = (
+				27198D1BCAE26671957D6777 /* [CP] Check Pods Manifest.lock */,
 				3BDBB16C209AA28B00648EA1 /* Sources */,
 				3BDBB16D209AA28B00648EA1 /* Frameworks */,
 				3BDBB16E209AA28B00648EA1 /* Resources */,
+				13C16FC970FBC9958B5FD744 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +295,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025EE24417974EB5ED87419A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello-Jenkins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13C16FC970FBC9958B5FD744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hello-JenkinsUITests/Pods-Hello-JenkinsUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello-JenkinsUITests/Pods-Hello-JenkinsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27198D1BCAE26671957D6777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello-JenkinsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7231067F6A4DD1DC740C574F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello-JenkinsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7682F59703DE556BA591B17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hello-JenkinsTests/Pods-Hello-JenkinsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello-JenkinsTests/Pods-Hello-JenkinsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BDBB14D209AA28900648EA1 /* Sources */ = {
@@ -430,15 +572,13 @@
 		};
 		3BDBB17A209AA28B00648EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD376E65EBB31E32750BA2A /* Pods-Hello-Jenkins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 69L92VZ7E4;
 				INFOPLIST_FILE = "Hello-Jenkins/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carbar.liguanjun.Hello-Jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f0263cfc-7993-4b89-b91c-233961702f8e";
@@ -450,15 +590,13 @@
 		};
 		3BDBB17B209AA28B00648EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA291EF6BC1EE8C818F14AB2 /* Pods-Hello-Jenkins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 69L92VZ7E4;
 				INFOPLIST_FILE = "Hello-Jenkins/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carbar.liguanjun.Hello-Jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f0263cfc-7993-4b89-b91c-233961702f8e";
@@ -470,17 +608,14 @@
 		};
 		3BDBB17D209AA28B00648EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA952EB4A66BA89657BA10FC /* Pods-Hello-JenkinsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ5QVK7FZD;
 				INFOPLIST_FILE = "Hello-JenkinsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liguanjun.Hello-JenkinsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -491,17 +626,14 @@
 		};
 		3BDBB17E209AA28B00648EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8D738458CEB3B408491EAC /* Pods-Hello-JenkinsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ5QVK7FZD;
 				INFOPLIST_FILE = "Hello-JenkinsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liguanjun.Hello-JenkinsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -512,16 +644,13 @@
 		};
 		3BDBB180209AA28B00648EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D552E2D7C502AF913AFD280E /* Pods-Hello-JenkinsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ5QVK7FZD;
 				INFOPLIST_FILE = "Hello-JenkinsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liguanjun.Hello-JenkinsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -532,16 +661,13 @@
 		};
 		3BDBB181209AA28B00648EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00BB1B581F797DF9389F6F9 /* Pods-Hello-JenkinsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ5QVK7FZD;
 				INFOPLIST_FILE = "Hello-JenkinsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liguanjun.Hello-JenkinsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
