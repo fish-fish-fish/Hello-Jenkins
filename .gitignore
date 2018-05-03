@@ -9,4 +9,5 @@ xcuserdata/
 build/
 
 # CocoaPods
-#Pods/
+Pods/
+Podfile.lock
