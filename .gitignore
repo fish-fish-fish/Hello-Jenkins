@@ -1,0 +1,12 @@
+# Mac OS
+.DS_Store
+
+# SVN
+.svn
+
+# Xcode
+xcuserdata/
+build/
+
+# CocoaPods
+#Pods/
